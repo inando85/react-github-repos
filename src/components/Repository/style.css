@@ -1,0 +1,69 @@
+.repository {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.repository-card {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.owner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.login {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.repo-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.id,
+.repo-name,
+.project-language,
+.created-at {
+  font-size: 1rem;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.content {
+  font-size: 1rem;
+  color: #222;
+}
+
+.repo-link {
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #222;
+  transition: 0.3s;
+}
+
+.repo-link:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
